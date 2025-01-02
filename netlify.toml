@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[dev]
+  framework = "#custom"
+  command = "npm run start"
+  targetPort = 8888
+  port = 3999
