@@ -34,7 +34,8 @@
     "start": "nodemon ..src/server.js",
     "build": "netlify build",
     "deploy": "netlify deploy --prod",
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "compilar": "webpack"
   },
   "author": "",
   "license": "ISC",
