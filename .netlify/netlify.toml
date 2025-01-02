@@ -5,9 +5,9 @@ headers = []
 redirects = []
 
 [build]
-publish = /opt/build/repo/dist
+publish = "C:\\Users\\Omar Contreras\\Desktop\\proyecto wilmar\\sumichem\\back\\public"
 publishOrigin = "config"
-functions = /opt/build/repo/netlify/functions
+functions = "C:\\Users\\Omar Contreras\\Desktop\\proyecto wilmar\\sumichem\\back\\netlify\\functions"
 
 [build.environment]
 

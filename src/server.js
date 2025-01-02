@@ -1,6 +1,6 @@
 
 const serverless = require("serverless-http");
-const { dbCom } = require("./src/config/dbCom");
+const { dbCom } = require("./config/dbCom");
 const router = require("./routes/routes");
 const cors = require("cors");
 const express = require("express");
