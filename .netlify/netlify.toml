@@ -1,0 +1,34 @@
+functionsDirectory = "C:\\Users\\Omar Contreras\\Desktop\\proyecto wilmar\\sumichem\\back\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+plugins = []
+headers = []
+redirects = []
+
+[build]
+publish = /opt/build/repo/dist
+publishOrigin = "config"
+functions = /opt/build/repo/netlify/functions
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[dev]
+framework = "#custom"
+command = "npm run start"
+targetPort = 8888.0
+port = 3999.0
+
+[functions]
+
+[functions."*"]
