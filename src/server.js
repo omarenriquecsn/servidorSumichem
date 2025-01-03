@@ -12,11 +12,11 @@ app.use(express.json());
 app.use(router);
 
 dbCom().then((res) =>
-  app.listen(8888, () => {
+  app.listen(3000, () => {
     console.log("escuchando por el puerto 3000");
   })
 );
 
-module.exports = app;
+module.exports.handler = serverless(app);
 
 
