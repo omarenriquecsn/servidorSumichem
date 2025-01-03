@@ -37,6 +37,7 @@
     "dev": "netlify dev",
     "compilar": "webpack"
   },
+  "engines": { "node": "12.x"},
   "author": "",
   "license": "ISC",
   "description": "",
